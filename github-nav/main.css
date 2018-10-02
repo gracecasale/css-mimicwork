@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    min-width: 1012px; 
 }
 
 .nav-menu {
@@ -34,4 +35,23 @@ body{
 
 .bold a {
     font-size: 1rem;
+}
+
+form.nav-search input {
+    border-radius: 3px; 
+    min-height: 30px;
+    width: 20em;
+    font-size: 14px;
+    color: black;
+    background-color: hsla(0,0%,100%,0.125);
+    border: 0;
+    box-shadow: none;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    outline: none; 
+    overflow: hidden;
+}
+
+.darker .octicon {
+    color: hsla(0,0%,100%,0.75);
 }
