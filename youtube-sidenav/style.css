@@ -1,24 +1,18 @@
 
-.header-container {
-    border: 1px solid black;
-    text-align: center;
-}
-
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 15rem; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
     left: 0;
     color: hsl(0, 0%, 7%);
     background-color: hsl(0, 0%, 93%);
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
     font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 /* The navigation menu links */
@@ -27,6 +21,7 @@
     text-decoration: none;
     color: hsl(0, 0%, 7%);
     display: block;
+    flex-wrap: nowrap;
     font-size: .8rem;
     font-family: Roboto, Arial, sans-serif;
 }
@@ -56,4 +51,10 @@
     border: none;
     text-align: left;
     width: 360%;
+}
+
+.header-container {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
 }
