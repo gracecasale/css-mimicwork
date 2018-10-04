@@ -39,7 +39,6 @@
 .about-info a {
     display: inline;
     color: hsl(0, 0%, 53.3%);
-    text-decoration: none;
     font-size: .8em;
     font-weight: bold;
 }
@@ -66,9 +65,12 @@ p {
     padding-left: 1em;
 }
 
-.signin-button {
+.signin a {
     font-weight: bold;
-    text-transform: uppercase;
+    border: none;
+    color: hsl(206.1, 79.3%, 52.7%);
+    display: inline-block;
+    font-size: 0.95rem;
 }
 
 .copyright {
