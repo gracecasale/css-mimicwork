@@ -22,7 +22,6 @@
     background-color:rgb(245,245,245);
     overflow-x: hidden; /* Disable horizontal scroll */
     font-size: .9rem;
-    font-family: Roboto, Arial, sans-serif;
 }
 
 .sidenav a {
@@ -30,7 +29,6 @@
     text-decoration: none;
     color: hsl(0, 0%, 7%);
     display: block;
-    font-family: Roboto, Arial, sans-serif;
 }
 
 .primary a:hover,
@@ -43,9 +41,12 @@
     color: hsl(0, 0%, 53.3%);
     text-decoration: none;
     font-size: .8em;
-    font-weight: 500;
+    font-weight: bold;
 }
 
+.terms {
+    padding-top: 1em;
+}
 
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
@@ -73,7 +74,10 @@ p {
 .copyright {
     padding: 24px 27px;
     color: hsla(0, 0%, 7%, 0.6);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: .8rem;
+    font-weight: bold;
     line-height: 2.1rem;
+    padding-left: 1em;
 }
+
+
