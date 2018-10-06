@@ -17,27 +17,31 @@
             <button class="btn btn-success btn-sm">Login</button>
         </nav>
         <section class="row flex-column align-items-center">
-            <header>
+            <header class="col-sm-12 col-md-4 d-flex flex-column align-items-center">
                 <img src="https://via.placeholder.com/32x32" alt="Icon" />
                 <h1>Stuff and Things</h1>
                 <h2>Subtitle</h2>
             </header>
-            <form action="" method="POST">
-                <div><input type="email" name="email" placeholder="Email" required />
+            <form action="" class="ol-sm-12 col-md-4">
+                <div class="form-group">
+                    <input class="form-control" type="email" name="email" placeholder="Email" required />
                 </div>
-                <div>
-                    <input type="password" name="password" placeholder="Password" required />
+                <div class="form-group">
+                    <input class="form-control" type="password" name="password" placeholder="Password" required />
                 </div>
-                <div>
-                    <input type="number" name="Age" placeholder="Age" required />
+                <div class="form-group">
+                    <input class="form-control" type="number" name="Age" placeholder="Age" required />
                 </div>
-                <button type="submit">Continue</button>
+                <button type="submit" class="btn btn-danger btn-block">Continue</button>
             </form>
-            <footer>
-                <button>Google</button>
-                <button>Facebook</button>
+            
+            <h6 class="text-uppercase">OR</h6>
+
+            <footer class="col-sm-12 col-md-4 d-flex flex-column align-items-center">
+                <button class="btn btn-primary btn-block">Google</button>
+                <button class="btn btn-primary btn-block">Facebook</button>
                 <p>Small things and stuff</p>
-                <button>Business</button>
+                <button class="btn btn-primary btn-block">Business</button>
             </footer>
         </section>
         <nav class="row justify-content-center fixed-bottom">
