@@ -12,38 +12,44 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="overlay"></div>
+    <div class="container-fluid login">
         <nav class="row justify-content-end mt-3 pr-3">
             <button class="btn btn-success btn-sm">Login</button>
         </nav>
-        <section class="row flex-column align-items-center">
-            <header class="col-sm-12 col-md-3 d-flex flex-column align-items-center">
-                <img src="https://via.placeholder.com/32x32" alt="Icon" />
-                <h1 class="title font-weight-bold mb-0">Welcome to Pinterest</h1>
-                <h2 class="subtitle text-center mb-4">Find new ideas to try</h2>
-            </header>
-            <form action="" class="ol-sm-12 col-md-3">
-                <div class="form-group">
-                    <input class="form-control" type="email" name="email" placeholder="Email" required />
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="password" name="password" placeholder="Password" required />
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="number" name="Age" placeholder="Age" required />
-                </div>
-                <button type="submit" class="btn btn-danger btn-block">Continue</button>
-            </form>
-            
-            <h6 class="text-uppercase partition font-weight-bold m-3">OR</h6>
 
-            <footer class="col-sm-12 col-md-3 d-flex flex-column align-items-center">
-                <button class="btn btn-primary btn-block">Google</button>
-                <button class="btn btn-primary btn-block">Facebook</button>
-                <p class="text-center terms mt-3 mb-3">By continuing, you agree to Pinterest's Terms of Service, Privacy Policy</p>
-                <button class="btn btn-primary btn-block">Business</button>
-            </footer>
+        <section class="row flex-column align-items-center">
+            <div class="col-sm-12 col-md-4 bg-white p-5 rounded">
+                <header class="d-flex flex-column align-items-center">
+                    <img src="https://via.placeholder.com/32x32" alt="Icon" />
+                    <h1 class="title font-weight-bold mb-0">Welcome to Pinterest</h1>
+                    <h2 class="subtitle text-center mb-4">Find new ideas to try</h2>
+                </header>
+                <form action="" class="">
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Password" required />
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="number" name="Age" placeholder="Age" required />
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Continue</button>
+                </form>
+
+                <h6 class="text-uppercase partition font-weight-bold m-3 text-center">OR</h6>
+
+                <footer class="d-flex flex-column align-items-center">
+                    <button class="btn btn-primary btn-block">Google</button>
+                    <button class="btn btn-primary btn-block">Facebook</button>
+                    <p class="text-center terms mt-3 mb-3">By continuing, you agree to Pinterest's Terms of Service,
+                        Privacy Policy</p>
+                    <button class="btn btn-primary btn-block">Business</button>
+                </footer>
+            </div>
         </section>
+
         <aside class="teardrop-container position-absolute d-flex flex-column align-items-center justify-content-center">
             <h3>Halloween Good</h3>
             <button class="btn">How it works</button>
