@@ -1,0 +1,85 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+.header-container {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.active {
+    background-color: #d3d3d3;
+    border: none;
+    text-align: left;
+}
+
+/* The sidebar menu */
+.sidenav {
+    width: 15rem; /* Set the width of the sidebar */
+    left: 0;
+    color: hsl(0, 0%, 7%);
+    background-color:rgb(245,245,245);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    font-size: .9rem;
+}
+
+.sidenav a {
+    padding: 12px 8px 12px 16px;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    display: block;
+}
+
+ 
+.primary a:hover,
+.list-with-title a:hover {
+    background-color: #d3d3d3;
+}
+
+.about-info a {
+    display: inline;
+    color: hsl(0, 0%, 53.3%);
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.terms {
+    padding-top: 1em;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+h3 {
+   color: hsla(0, 47%, 4%, 0.6);
+   font-size: .9rem;
+   font-weight: bold;
+   letter-spacing: .007px;
+   text-transform: uppercase;
+   padding-left: 1em;
+}
+
+p {
+    padding-left: 1em;
+}
+
+.signin a {
+    font-weight: bold;
+    border: none;
+    color: hsl(206.1, 79.3%, 52.7%);
+    display: inline-block;
+    font-size: 0.95rem;
+}
+
+.copyright {
+    padding: 24px 27px;
+    color: hsla(0, 0%, 7%, 0.6);
+    font-size: .8rem;
+    font-weight: bold;
+    line-height: 2.1rem;
+    padding-left: 1em;
+}
+
