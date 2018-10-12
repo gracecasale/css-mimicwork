@@ -1,0 +1,9 @@
+body {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+}
+
+
+.card-title {
+    font-size: 4.5rem;
+    font-weight: 700;
+}

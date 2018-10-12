@@ -12,70 +12,87 @@
 </head>
 
 <body>
-    <div>
+    <div class="container-fluid navbar-light bg-light">
         <header>
-            <nav class="nav">
-                <a class="nav-link active" href="#">Spotify</a>
-                <a class="nav-link" href="#">Premium</a>
-                <a class="nav-link" href="#">Help</a>
-                <a class="nav-link" href="#">Download</a>
-                <a class="nav-link" href="#">Sign up</a>
-                <a class="nav-link" href="#">Log In</a>
+            <nav class="navbar">
+                <a class="nav-link" href="#">Spotify</a>
 
+                <div class="d-flex">
+                    <a class="nav-link" href="#">Premium</a>
+                    <a class="nav-link" href="#">Help</a>
+                    <a class="nav-link" href="#">Download</a>
+                    <a class="nav-link" href="#">Sign up</a>
+                    <a class="nav-link" href="#">Log In</a>
+                </div>
 
             </nav>
         </header>
 
         <main>
-            <section class="mainimage img-fluid">
-                <img src="https://via.placeholder.com/1293x500" alt="heroimage">
-                <div class="row justify-content-center">
-                    <h1>Music for everyone</h1>
-                    <p>Millions of songs. No credit card needed.</p>
-                    <button>Get Spotify Free</button>
+            <section class="row card bg-dark text-white border-0">
+                <img class="card-img" src="https://via.placeholder.com/1293x500" alt="Card image"/>
+                <div class="card-img-overlay">
+                    <h1 class="d-flex card-title justify-content-center">Music for everyone</h1>
+                    <p class="d-flex card-text justify-content-center">Millions of songs. No credit card needed.</p>
+                    <p class="d-flex card-text justify-content-center">Get Spotify Free</p>
                 </div>
             </section>
         </main>
 
         <footer>
-            <section class="row container">
-                <nav class="nav flex-column md-2">
+            <section class="row pt-5 px-3">
+                <nav class="nav flex-column md-2 col-2">
                     <a class="nav-link active" href="#">Spotify</a>
                 </nav>
 
-                <nav class="nav flex-column md-2">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
+                <nav class="nav flex-column md-2 col-2">
+                    <p class="nav-link active" href="#">Company</p>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Jobs</a>
+                    <a class="nav-link" href="#">For the Record</a>
                 </nav>
 
-                <nav class="nav flex-column md-2">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
+                <nav class="nav flex-column md-2 col-2">
+                    <p class="nav-link active" href="#">Communities</p>
+                    <a class="nav-link active" href="#">For Artists</a>
+                    <a class="nav-link" href="#">Developers</a>
+                    <a class="nav-link" href="#">Brands</a>
+                    <a class="nav-link" href="#">Investors</a>
+                    <a class="nav-link" href="#">Vendors</a>
                 </nav>
 
-                <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
+                <nav class="nav flex-column md-2 col-2">
+                    <p class="nav-link active" href="#">Useful Links</p>
+                    <a class="nav-link " href="#">Help</a>
+                    <a class="nav-link" href="#">Gift</a>
+                    <a class="nav-link" href="#">Web Player</a>
                 </nav>
 
-                <nav class="nav flex-column">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
-                </nav>
-            </section>
+                <nav class="nav flex-column md-2 col-2">
 
-
-            <section class="row container">
-                <nav class="nav">
-                    <a class="nav-link active" href="#">Active</a>
-                    <a class="nav-link" href="#">Link</a>
-                    <a class="nav-link" href="#">Link</a>
                 </nav>
-            </section>
+                <nav class="nav flex-column md-2 col-2">
+                    <p class="nav-link active" href="#">Social Media</p>
+                    <a class="nav-link " href="#">Help</a>
+                    <a class="nav-link" href="#">Gift</a>
+                    <a class="nav-link" href="#">Web Player</a>
+                </nav>
+
+                <section>
+                    <nav class="nav">
+                        <a class="nav-item nav-link" href="#">Legal</a>
+                        <a class="nav-item nav-link" href="#">Privacy Center</a>
+                        <a class="nav-item nav-link" href="#">Privacy Policy</a>
+                        <a class="nav-item nav-link" href="#">Cookies</a>
+                        <a class="nav-item nav-link" href="#">About Ads</a>
+
+                        <div class="justify-content-end">
+                            <a class="nav-item nav-link" href="#">usa</a>
+                            <a class="nav-item nav-link" href="#">flag</a>
+                            <p class="nav-item nav-link" href="#">2018 Spotify AB</p>
+                        </div>
+                    </nav>
+                </section>
         </footer>
     </div>
 </body>
