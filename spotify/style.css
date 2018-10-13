@@ -2,8 +2,18 @@ body {
     font-family: Circular, Helvetica, Arial, sans-serif;
 }
 
+header {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 .card-title {
     font-size: 4.5rem;
     font-weight: 700;
+}
+
+footer {
+    background-color: black; 
 }
